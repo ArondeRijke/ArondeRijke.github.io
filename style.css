@@ -1,0 +1,32 @@
+body {
+      /* Old browsers */
+  background: rgb(133, 133, 133);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, rgb(133, 133, 133), rgb(255, 255, 255));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: gradient(-45deg, rgb(133, 133, 133), rgb(255, 255, 255));
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    color:white;
+    text-align: center
+}
+
+h2{
+    color: white;
+    text-align: center
+}
+
+h3{
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding: 0px 300px;
+}
+
+.pasfoto{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
