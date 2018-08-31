@@ -1,12 +1,11 @@
 body {
-      /* Old browsers */
-  background: rgb(133, 133, 133);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(-45deg, rgb(133, 133, 133), rgb(255, 255, 255));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: gradient(-45deg, rgb(133, 133, 133), rgb(255, 255, 255));
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 h1{
@@ -29,4 +28,38 @@ h3{
     position: absolute;
     right: 0;
     top: 0;
+}
+.menu_link{
+    color:white
+}
+
+.bar_menu{
+    Position:absolute;
+    left: 0;
+    top: 0;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
 }
