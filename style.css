@@ -33,6 +33,26 @@ h3{
     color:white
 }
 
+table{
+    width: 80%;
+    border-collapse: collapse;
+    padding: 20px 50px;
+}
+
+th{
+    background-color: #7e7e7e;
+    color: white;
+    height: 40px;
+}
+
+table tr td{
+    padding: 5px 40px;
+    height: 40px;
+}
+
+table,tr,td{
+   border: 1px solid black;
+}
 
 li a {
     display: block;
@@ -41,7 +61,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* navigation bar */
 li a:hover {
     background-color: #7e7e7e;
     color: white;
@@ -56,7 +76,7 @@ li a:hover {
      width: 100%;
      height: 60px;
      background-color: #fff;
-     
+
  }
  
  nav p {
@@ -105,7 +125,7 @@ li a:hover {
  }
  
  nav ul li ul li {
-     width: 180px;
+     width: 160px;
      border-radius: 4px;
  }
  
@@ -121,3 +141,51 @@ li a:hover {
     height: 100px;
     background-color: #CCC;
     }
+
+/* Progress bar*/
+
+    .center {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 20px 50 px rgba(0,0,0,.5)
+    }
+    
+    
+    .skillbox{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .skillbox p {
+        color: #fff;
+        margin: 0 0 10px;
+        padding: 0px;
+    }
+    
+    .skillbox p:nth-child(2) {
+        float: right;
+        position: relative;
+        top: -25px;
+    
+    }
+    
+    .skill {
+        background: #707070;
+        padding: 4px;
+        box-sizing: border-box;
+        border: 1px solid #0fffb7;
+        border-radius: 2px;
+    }
+    
+    .skill_level {
+        background: #0fffb7;
+        width: 100%;
+        height: 10px;
+    }
+    
