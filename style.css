@@ -94,6 +94,7 @@ tr,td{
 .blank_list {
     color: black;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .BF4 {
@@ -188,7 +189,7 @@ nav li a:hover {
      display: none;
      position: absolute;
      background-color: #fff;
-     padding: 8px;
+     padding: 7px;
      border-radius: 0px 0px 4px 4px;
  }
  
