@@ -1,5 +1,5 @@
 body {
-  background: -webkit-linear-gradient(-45deg, rgb(133, 133, 133), rgb(255, 255, 255));
+  background: -webkit-linear-gradient(-45deg, rgb(0, 140, 255), rgb(255, 255, 255));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0;
   padding: 0;
@@ -15,54 +15,131 @@ h1{
 
 h2{
     color: white;
-    text-align: center
+    text-align: center;
 }
 
 h3{
     color:rgb(0, 0, 0);
-    text-align:center;
+    text-align: center;
     padding: 0px 300px;
+}
+
+h4{
+    padding-left: 75%;
+    margin-top: 0%;
+    font-family: Arial;
+    color: #0fffb7;
+    position:absolute;
+    font-size: 22px;
 }
 
 .pasfoto{
     position: absolute;
     right: 0;
-    top: 0;
 }
+
 .menu_link{
     color:white
 }
 
 table{
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
-    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 th{
     background-color: #7e7e7e;
     color: white;
     height: 40px;
+    padding: 0px 20px;
+}
+
+.periode {
+    padding-left: 10px;
+}
+
+.vak {
+    padding-left: 30px;
+    background-color: #e81d1d;
+}
+
+.passed {
+    background-color: green;
+}
+
+.wip {
+    background-color: orange;
+}
+
+.null {
+    background-color: #e81d1d;
 }
 
 table tr td{
-    padding: 5px 40px;
+    padding: 5px 30px;
     height: 40px;
 }
 
-table,tr,td{
+tr,td{
    border: 1px solid black;
 }
 
-li a {
+.periode{
+    color: black;
+}
+
+.blank_list {
+    color: black;
+    list-style-type: none;
+}
+
+.BF4 {
+    width: 225px;
+    height: 300px;
+    object-fit: contain;
+    position: absolute;
+    left: 85%;
+    top: 40%;
+}
+
+.ASS {
+    width: 225px;
+    height: 300px;
+    object-fit: contain;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+}
+
+.ffdp {
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    left: 85%;
+    top: 75%;
+}
+
+.dagoba {
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    left: 85%;
+    top: 97%;
+}
+
+/* navigation bar */
+
+nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-/* navigation bar */
-li a:hover {
+nav li a:hover {
     background-color: #7e7e7e;
     color: white;
 }
@@ -76,7 +153,7 @@ li a:hover {
      width: 100%;
      height: 60px;
      background-color: #fff;
-
+    display: flex;
  }
  
  nav p {
@@ -101,7 +178,7 @@ li a:hover {
  nav ul li a {
      display: block;
      font-family: Arial;
-     color: #222;
+     color: rgb(0, 0, 0);
      font-size: 14px;
      padding: 22px 14px;
      text-decoration:none;
@@ -142,6 +219,15 @@ li a:hover {
     background-color: #CCC;
     }
 
+    .easter {
+        color: white;
+        margin-left: 1000px;
+    }
+
+    .white {
+        color: white;
+    }
+
 /* Progress bar*/
 
     .center {
@@ -152,7 +238,8 @@ li a:hover {
         transform: translate(-50%,-50%);
         padding: 20px;
         box-sizing: border-box;
-        box-shadow: 0 20px 50 px rgba(0,0,0,.5)
+        box-shadow: 0 20px 50 px rgba(0,0,0,.5);
+        margin-top: 10%;
     }
     
     
@@ -188,4 +275,64 @@ li a:hover {
         width: 100%;
         height: 10px;
     }
-    
+
+    /* shitpost page */
+
+    .wrapper { 
+        height: 100%;
+        width: 100%;
+        left:0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+      background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+      background-size: 1800% 1800%;
+      
+      -webkit-animation: rainbow 0.1s ease infinite;
+      -z-animation: rainbow 0.1s ease infinite;
+      -o-animation: rainbow 0.1s ease infinite;
+        animation: rainbow 0.1s ease infinite;}
+      
+      @-webkit-keyframes rainbow {
+          0%{background-position:0% 82%}
+          50%{background-position:100% 19%}
+          100%{background-position:0% 82%}
+      }
+      @-moz-keyframes rainbow {
+          0%{background-position:0% 82%}
+          50%{background-position:100% 19%}
+          100%{background-position:0% 82%}
+      }
+      @-o-keyframes rainbow {
+          0%{background-position:0% 82%}
+          50%{background-position:100% 19%}
+          100%{background-position:0% 82%}
+      }
+      @keyframes rainbow { 
+          0%{background-position:0% 82%}
+          50%{background-position:100% 19%}
+          100%{background-position:0% 82%}
+      }
+   
+      @keyframes spinning {
+        from {
+          transform: rotate(0deg);
+        }
+      
+        to {
+          transform: rotate(36000deg);
+        }
+      }
+
+    .spin {
+        animation-name: spinning;
+        animation-duration: 90s;
+        animation-delay: 0.5s;
+      }
+
+    .pls {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10%;
+      }
