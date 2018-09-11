@@ -322,7 +322,7 @@ nav li a:hover {
         }
       
         to {
-          -webkit-transform: rotate(3600deg);
+          -webkit-transform: rotate(7200deg);
         }
       }
 
