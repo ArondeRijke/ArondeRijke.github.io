@@ -1,5 +1,5 @@
 body {
-  background-image: url(./img/trianglify\ \(1\).png);
+  background-image: url(./img/background.png);
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -38,6 +38,7 @@ h4{
 .pasfoto{
     position: absolute;
     right: 0;
+    height:200px;
 }
 
 .menu_link{
