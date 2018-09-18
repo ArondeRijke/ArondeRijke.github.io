@@ -46,7 +46,7 @@ switch (true) {
 
 const purchasedBook = "true";
 const inTrain = "false"
-const job = "garbage man"
+const job = "teacher"
 
 if (purchasedBook == "true" && inTrain =="false" && job == "teacher")
     console.log ("Finally i can enjoy my book")
