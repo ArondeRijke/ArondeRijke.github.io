@@ -59,7 +59,7 @@ function spinnen() {
 }
 
 purrr()
-let purrr = function() {
+let purrr = function () {
     let message = "purrr";
     console.log(message);
 }
