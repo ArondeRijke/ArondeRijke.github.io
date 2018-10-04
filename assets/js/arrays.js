@@ -25,7 +25,7 @@ for (let i = 0; i < productList.length; i++) {
 
 //opdrachtjes
 
-const productPrices = [
+/*const productPrices = [
     2.10, 4.99, 5.60, 0.40, 5.44, 7.33, 2.33, 2.49, 2.10
 ]
 
@@ -40,6 +40,7 @@ function avarage() {
     console.log(`de gemiddelde prijs is ${gemiddelde}`)
 }
 avarage();
+*/
 
 //OPDRACHT 1
 const lapRounds = [2.99, 3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12];
