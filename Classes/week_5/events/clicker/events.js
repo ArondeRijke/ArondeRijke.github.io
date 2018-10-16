@@ -34,14 +34,9 @@ function clickEventHandler(event) {
     totalClicks += 1;
     event.preventDefault();
     clickAmount.innerHTML = `You've clicked ${totalClicks} Aries.`;
-    fallingImage();
 }
-
-function fallingImage(){
-
-}
-
-const faller = 
 
 clickAmount.innerHTML = `You've clicked ${totalClicks} Aries.`;
 document.body.appendChild(clickAmount);
+
+console.log(totalClicks)
